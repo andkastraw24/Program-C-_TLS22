@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main( )
+{
+    int angka;
+    cout<<"Menu Minuman"<<endl;
+    cout<<"1. Es Teh"<<endl;
+    cout<<"2. Es Jeruk"<<endl;
+    cout<<"3. Es Lemon Tea"<<endl;
+    cout<<"Masukan Pilihan Anda: ";
+    cin>>angka;
+    
+    if (angka==1){
+    cout<<"Anda memesan Es Teh";
+    }
+    else if(angka==2){
+    cout<<"Anda memesan Es Jeruk";
+    }
+    else if(angka==3){
+    cout<<"Anda memesan Es Lemon Tea";
+    }
+    else{
+    cout<<"Pilihan yang anda masukan salah";
+    }
+    
+}
